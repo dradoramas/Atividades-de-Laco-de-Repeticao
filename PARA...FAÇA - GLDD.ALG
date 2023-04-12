@@ -1,7 +1,7 @@
-Algoritmo "Para...Faça"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
+Algoritmo "Para...FaÃ§a"
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor   :  Carlos
-// Descrição   :  Escreva um algoritmo que mostre a tabuada de um número até 10.
+// DescriÃ§Ã£o   :  Escreva um algoritmo que mostre a tabuada de um nÃºmero atÃ© 10.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 11/04/2023
 
@@ -11,14 +11,17 @@ i, j, r: inteiro
 
 Inicio
 
-//Para...Faça, para tabuada.
+//Para...FaÃ§a, para tabuada.
 para i de 1 ate 10 faca
   para j de 1 ate 10 faca
-//Multiplicação
+  
+//MultiplicaÃ§Ã£o
 r<-(i*j)
 escreval(i," x ", j, " = ", r)
 fimpara
 fimpara
+
+//FIM
 
 
 Fimalgoritmo
