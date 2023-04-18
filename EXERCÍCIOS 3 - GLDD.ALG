@@ -1,4 +1,4 @@
-Algoritmo "Exemplo 2"
+Algoritmo "Exercício 3"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
 // Descrição   : Escreva um algoritmo que leia a média de um aluno. Caso seja menor que 0 ou
