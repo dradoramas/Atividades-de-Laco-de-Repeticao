@@ -1,7 +1,7 @@
-Algoritmo "ExercÌcio 2"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "Exerc√≠cio 2"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Carlos
-// DescriÁ„o   : Escreva um algoritmo que enquanto a resposta do usu·rio for ìSIMî, o  usu·rio pode digitar uma nota. Ao sair do laÁo de repetiÁ„o, faÁa a mÈdia aritmÈtica.
+// Descri√ß√£o   : Escreva um algoritmo que enquanto a resposta do usu√°rio for ‚ÄúSIM‚Äù, o  usu√°rio pode digitar uma nota. Ao sair do la√ßo de repeti√ß√£o, fa√ßa a m√©dia aritm√©tica.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 12/04/2023
 
@@ -13,37 +13,39 @@ Var
 
 Inicio
 
+//Impress√£o Inicial para o usu√°rio.
 escreval("Bem-Vindo ao BANCO DE DADOS DOS DORAMAS!")
 escreval(" ")
-escreval("Deseja acrescentar uma nota? Escreva 'SIM' ou 'N√O'!")
+escreval("Deseja acrescentar uma nota? Escreva 'SIM' ou 'N√ÉO'!")
 leia(resposta)
 
 limpatela
 
-//Condicional SE Composta para verificaÁ„o de resposta
-se (resposta= "N√O") entao
-escreval("Obrigada, atÈ a proxima!")
-sen„o
+//Condicional SE Composta para verifica√ß√£o de resposta
+se (resposta= "N√ÉO") entao
+escreval("Obrigada, at√© a proxima!")
+sen√£o
 enquanto (resposta= "SIM") faca
   escreval("Digite uma nota: ")
   leia(nota)
   
-//Expressıes para salvar dados
+//Express√µes para salvar dados
   soma<- soma+nota
   contador <- contador+1
   
 limpatela
-  
+
+//Pergunta do La√ßo de Repeti√ß√£o 
 escreval("Deseja digitar uma nota?")
 leia(resposta)
 fimenquanto
 fimse
 
-//Expres„o para calcular a mÈdia do usu·rio
+//Expres√£o para calcular a m√©dia do usu√°rio
 media <- soma/contador
 
-//Impress„o da mÈdia para o usu·rio
-escreval("A mÈdia È: ", media)
+//Impress√£o da m√©dia para o usu√°rio
+escreval("A m√©dia √©: ", media)
 
 //Fim
 
