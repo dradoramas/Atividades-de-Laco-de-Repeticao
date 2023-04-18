@@ -20,7 +20,7 @@ leia(media)
 
 limpatela
 
-//Enquanto...Faça
+//Enquanto...Faça para verificação do valor da média. 
 enquanto (media<0) ou (media>10) faca
 escreval("Media Incorreta!")
 escreval("Digite sua média novamente: ")
