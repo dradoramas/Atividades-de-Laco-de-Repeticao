@@ -5,7 +5,6 @@ Laço de Repetição | Atividades de Fixação feitas no VisualG:
 1. Escreva um algoritmo que mostre a tabuada de um número até 10.
 
 2.Escreva um algoritmo que enquanto a resposta do usuário for “SIM”, o  usuário pode digitar uma nota. Ao sair do laço de repetição, faça a média aritmética.
-
 Obs.: Use um contador dentro do laço de repetição para contar a quantidade e
 iterações (loops).
 
