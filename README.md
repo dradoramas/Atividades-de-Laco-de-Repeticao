@@ -17,3 +17,5 @@ a) a soma dos números positivos;
 b) a quantidade de valores negativos.
 
 5. Faça um algoritmo que escreva na tela os números de um número inicial a um número final. Os números inicial e final devem ser informados pelo usuário.
+
+//Fim
